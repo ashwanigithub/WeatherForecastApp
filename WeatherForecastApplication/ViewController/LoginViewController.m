@@ -83,8 +83,6 @@
                 [self presentViewController:add animated:YES completion:nil];
             });
     }else{
-        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:NSLocalizedString(@"Alert", nil) message:NSLocalizedString(@"User Not Valid", nil) delegate:self cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles: nil];
-        [alert show];
     }
 
 
